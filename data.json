@@ -6,7 +6,51 @@
       "senha_hash": "4047036403791408be3e3155f60abcf8$bdd22a5e6c7dbb1a61aacfa2e5e12019e66b51a082cde90c34ef76f9c9e9eb0e",
       "criado_em": "2026-06-20T10:02:57.599277",
       "historico": [],
-      "pendencias": {}
+      "pendencias": {
+        "2026-06-20T11:03:57.010864": {
+          "session_id": "2026-06-20T11:03:57.010864",
+          "vaga": "Desenvolvedor Python",
+          "fase": "entrevista",
+          "historico": [
+            {
+              "role": "assistant",
+              "content": "Explique a diferença fundamental entre processos e threads no contexto da execução de aplicações Python e como o GIL (Global Interpreter Lock) influencia essa escolha em tarefas de CPU-bound e I/O-bound."
+            },
+            {
+              "role": "user",
+              "content": "Em Python, processos são instâncias independentes de um programa, com seus próprios espaços de memória. Threads são linhas de execução menores que compartilham a mesma memória do processo pai. O GIL (Global Interpreter Lock) é um cadeado que permite que apenas uma thread execute bytecode Python por vez."
+            },
+            {
+              "role": "assistant",
+              "content": "Como você implementaria um gerenciador de contexto personalizado em Python para garantir que um recurso específico, como uma conexão de banco de dados ou um arquivo, seja fechado corretamente, mesmo que ocorra uma exceção durante o processamento?"
+            }
+          ],
+          "respostas_anteriores": [
+            {
+              "titulo": "Questão 1 (Técnica)",
+              "resposta": "Em Python, processos são instâncias independentes de um programa, com seus próprios espaços de memória. Threads são linhas de execução menores que compartilham a mesma memória do processo pai. O GIL (Global Interpreter Lock) é um cadeado que permite que apenas uma thread execute bytecode Python por vez."
+            }
+          ],
+          "data_inicio": "2026-06-20T11:03:57.010864",
+          "dificuldade": "medio",
+          "modo_perguntas": "tecnicas"
+        },
+        "2026-06-20T11:11:35.692001": {
+          "session_id": "2026-06-20T11:11:35.692001",
+          "vaga": "Analista de Dados",
+          "fase": "entrevista",
+          "historico": [
+            {
+              "role": "assistant",
+              "content": "Explique a diferença entre uma \"Left Join\" e uma \"Inner Join\" no SQL e descreva um cenário prático em que o uso de uma \"Left Join\" seria obrigatório para garantir a integridade dos dados em uma análise."
+            }
+          ],
+          "respostas_anteriores": [],
+          "data_inicio": "2026-06-20T11:11:35.692001",
+          "dificuldade": "medio",
+          "modo_perguntas": "tecnicas"
+        }
+      }
     }
   }
 }

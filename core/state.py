@@ -4,7 +4,7 @@ Centraliza toda a inicialização e acesso ao st.session_state.
 Provê getters/setters com nomes claros para evitar "magic strings"
 espalhadas pelo código.
 """
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import streamlit as st
 
 from config.settings import DIFICULDADE_PADRAO, MODO_PADRAO, get_info_pergunta, get_total_perguntas
@@ -159,7 +159,9 @@ def logout() -> None:
 # ─── Helpers internos ─────────────────────────────────────────
 
 def _now() -> str:
-    return datetime.now().isoformat()
+    """Retorna datetime atual no fuso de Brasília (UTC-3) em formato ISO."""
+    BR = timezone(timedelta(hours=-3))
+    return datetime.now(BR).replace(tzinfo=None).isoformat()
 
 def _reset_entrevista() -> None:
     st.session_state.session_id         = ""

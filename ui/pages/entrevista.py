@@ -50,7 +50,7 @@ def render() -> None:
     _, col, _ = st.columns([1, 4, 1])
     with col:
         _cabecalho_pergunta(ultima, n_resp)
-        resposta = _campo_resposta()
+        resposta = _campo_resposta(n_resp)
         _botoes_acao(resposta, n_resp)
         _dica_star()
 
@@ -127,13 +127,13 @@ def _cabecalho_pergunta(pergunta: str, n_resp: int) -> None:
     )
 
 
-def _campo_resposta() -> str:
+def _campo_resposta(n_resp: int) -> str:
     return st.text_area(
         "Sua resposta",
         placeholder="Estruture sua resposta aqui... (dica: use o método STAR)",
         height=200,
         label_visibility="collapsed",
-        key="input_resposta",
+        key=f"input_resposta_{n_resp}",
     )
 
 

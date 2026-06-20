@@ -17,7 +17,7 @@ Sem dependência de Streamlit.
 """
 import json
 import os
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 
 from config.settings import DATA_PATH
 
@@ -172,7 +172,7 @@ def arquivar_sessao_concluida(
     historico_list = usuario.setdefault("historico", [])
     historico_list.append({
         "vaga": vaga,
-        "data": datetime.now().strftime("%d/%m/%Y %H:%M"),
+        "data": datetime.now(timezone(timedelta(hours=-3))).strftime("%d/%m/%Y %H:%M"),
         "avaliacao": avaliacao,
         "historico": historico_msgs,
         "encerrada_precoce": encerrada_precoce,
