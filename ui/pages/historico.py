@@ -53,9 +53,10 @@ def _card_sessao(sessao: dict, aberto: bool, idx: int) -> None:
         aval.get("confianca", 0)
     ) / 3)
 
+    vaga = sessao.get("vaga", "").strip() or "Cargo não especificado"
     titulo = (
         f"📅 {sessao.get('data', '')}  —  "
-        f"**{sessao.get('vaga', '')}**  —  Média: {media}/100"
+        f"**{vaga}**  —  Média: {media}/100"
     )
 
     with st.expander(titulo, expanded=aberto, key=f"hist_exp_{idx}"):

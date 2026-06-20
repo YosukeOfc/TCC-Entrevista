@@ -61,9 +61,7 @@ def render() -> None:
                 _confirmar()
         with c2:
             if st.button("↩️ Mudar Vaga", use_container_width=True):
-                state.set_fase("selecao")
-                state.set_vaga("")
-                _persistir()
+                state.reset_para_selecao()
                 st.rerun()
 
 

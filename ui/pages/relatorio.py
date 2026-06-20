@@ -18,7 +18,7 @@ def render() -> None:
 
     dados = historico[-1]
     aval  = dados.get("avaliacao", {})
-    vaga  = dados.get("vaga", "")
+    vaga  = dados.get("vaga", "").strip() or "Cargo não especificado"
     pergs = aval.get("perguntas", [])
     encerrada_precoce = dados.get("encerrada_precoce", False)
 

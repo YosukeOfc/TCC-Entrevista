@@ -6,7 +6,6 @@ import streamlit as st
 
 import core.state as state
 from config.settings import CARGOS_RAPIDOS, DIFICULDADE_PADRAO, MODO_PADRAO, OPCOES_DIFICULDADE, OPCOES_MODO
-from core.persistence import salvar_pendencia
 from services import gemini_service
 from ui.header import render_header
 
@@ -122,15 +121,4 @@ def _iniciar(vaga: str, dificuldade: str, modo: str) -> None:
         st.warning("Selecione ou digite uma profissão.")
         return
     state.criar_nova_sessao(vaga, dificuldade, modo)
-    salvar_pendencia(
-        user_id=state.get_user_id(),
-        session_id=state.get_session_id(),
-        vaga=state.get_vaga(),
-        fase=state.get_fase(),
-        historico=state.get_messages(),
-        respostas_anteriores=state.get_respostas(),
-        data_inicio=state.get_data_inicio(),
-        dificuldade=state.get_dificuldade(),
-        modo_perguntas=state.get_modo(),
-    )
     st.rerun()

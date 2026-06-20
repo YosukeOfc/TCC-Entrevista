@@ -48,7 +48,7 @@ def _estado_vazio() -> None:
 
 
 def _card_pendencia(session_id: str, sessao: dict) -> None:
-    vaga = sessao.get("vaga", "Cargo não especificado")
+    vaga = sessao.get("vaga", "").strip() or "Cargo não especificado"
     data_inicio = sessao.get("data_inicio", "")
     
     # Formatação amigável da data

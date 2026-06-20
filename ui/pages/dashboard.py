@@ -101,12 +101,13 @@ def _evolucao(historico: list, medias: list) -> None:
     )
     for sessao, media in zip(historico, medias):
         cor = "#0060ab" if media >= 70 else "#b81120"
+        vaga = sessao.get("vaga", "").strip() or "Cargo não especificado"
         st.markdown(
             f"""
             <div style="margin-bottom:12px;">
               <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
                 <span style="font-size:13px; font-weight:600; color:#191c1f;">
-                  {sessao.get('vaga','')}
+                  {vaga}
                   <span style="font-weight:400; color:#888; font-size:12px;">
                     — {sessao.get('data','')}
                   </span>
@@ -132,9 +133,10 @@ def _notas_por_pergunta(historico: list) -> None:
         pergs = sessao.get("avaliacao", {}).get("perguntas", [])
         if not pergs:
             continue
+        vaga = sessao.get("vaga", "").strip() or "Cargo não especificado"
         st.markdown(
             f"<div style='font-size:13px; font-weight:700; color:#0060ab;"
-            f" margin-bottom:8px;'>📌 {sessao.get('vaga','')} — {sessao.get('data','')}</div>",
+            f" margin-bottom:8px;'>📌 {vaga} — {sessao.get('data','')}</div>",
             unsafe_allow_html=True,
         )
         cols = st.columns(len(pergs))
