@@ -1,0 +1,757 @@
+{
+  "usuarios": {
+    "johncontas1207@gmail.com": {
+      "conta": "YosukeOfc",
+      "email": "johncontas1207@gmail.com",
+      "senha_hash": "6c2cb89bc1c7a695f441ec332bb9c041$6a927f4588169308d731b72bdebec56bcbc9b6735d4b1947f64adb32e455ccde",
+      "criado_em": "2026-06-19T00:31:39.278284",
+      "historico": [
+        {
+          "vaga": "Desenvolvedor Python",
+          "data": "19/06/2026 00:38",
+          "avaliacao": {
+            "resumo_geral": "O candidato demonstrou uma postura inadequada e antiprofissional durante a entrevista, não respondendo às perguntas técnicas solicitadas. Sua atitude demonstra falta de maturidade e desrespeito com o processo seletivo, tornando sua contratação inviável. Não houve demonstração de habilidades técnicas ou comportamentais necessárias para a vaga.",
+            "comunicacao": 0,
+            "tecnico": 0,
+            "confianca": 0,
+            "perguntas": [
+              {
+                "pergunta": "Como você explicaria a diferença entre uma lista (list) e uma tupla (tuple) em Python, considerando o uso de memória e a mutabilidade?",
+                "resposta_resumida": "O candidato não forneceu uma resposta técnica sobre a pergunta realizada. A resposta foi composta por conteúdo ofensivo e irrelevante.",
+                "nota": 0,
+                "feedback": "O candidato falhou completamente em responder à questão técnica. É necessário que o candidato demonstre seriedade e conhecimento técnico em futuras oportunidades."
+              },
+              {
+                "pergunta": "Como você lida com testes unitários em seus projetos?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Total ausência de resposta, inviabilizando qualquer análise técnica ou profissional."
+              },
+              {
+                "pergunta": "Descreva um desafio técnico que você enfrentou e como resolveu.",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "O candidato se recusou a participar do processo avaliativo de forma profissional, resultando em nota zero."
+              }
+            ]
+          },
+          "historico": [
+            {
+              "role": "assistant",
+              "content": "Como você explicaria a diferença entre uma lista (list) e uma tupla (tuple) em Python, considerando o uso de memória e a mutabilidade?"
+            },
+            {
+              "role": "user",
+              "content": "Gozei"
+            },
+            {
+              "role": "user",
+              "content": "Gozei"
+            },
+            {
+              "role": "user",
+              "content": "Gozei"
+            }
+          ],
+          "encerrada_precoce": true
+        },
+        {
+          "vaga": "Analista de Dados",
+          "data": "19/06/2026 21:14",
+          "avaliacao": {
+            "resumo_geral": "O candidato demonstra um nível técnico sólido e uma compreensão profunda das metodologias e ferramentas típicas de um Analista de Dados sênior. Ele possui excelente capacidade de síntese e uma abordagem estruturada para resolução de problemas complexos, além de comunicar conceitos técnicos de forma clara e profissional. Demonstrou domínio em tópicos que vão desde pipeline de dados até técnicas avançadas de machine learning, evidenciando uma visão estratégica alinhada ao negócio.",
+            "comunicacao": 95,
+            "tecnico": 92,
+            "confianca": 90,
+            "perguntas": [
+              {
+                "pergunta": "Como você explicaria a diferença entre uma correlação e uma causalidade no contexto de análise de dados?",
+                "resposta_resumida": "Correlação descreve variáveis que se movem juntas, enquanto causalidade implica que uma variável gera a mudança na outra. O candidato enfatiza corretamente que correlação não implica causalidade.",
+                "nota": 95,
+                "feedback": "Resposta precisa e direta. Demonstra um bom entendimento dos fundamentos estatísticos necessários para evitar erros de interpretação em análises."
+              },
+              {
+                "pergunta": "Quais técnicas ou métodos você utiliza para tratar valores ausentes (missing values) em um conjunto de dados antes de iniciar uma análise?",
+                "resposta_resumida": "O candidato utiliza uma abordagem baseada no tipo de missing (MCAR, MAR, MNAR) e aplica métodos de remoção, imputação simples ou imputação preditiva via KNN e algoritmos avançados.",
+                "nota": 98,
+                "feedback": "Excelente resposta. Demonstra maturidade técnica ao reconhecer que o método de tratamento deve ser escolhido com base no mecanismo de perda dos dados."
+              },
+              {
+                "pergunta": "Como você garante a integridade e a qualidade dos dados em um pipeline de processamento antes de alimentar um modelo de Machine Learning ou um dashboard?",
+                "resposta_resumida": "Propõe um framework robusto que inclui validação de esquema, limpeza, testes automatizados, monitoramento de drift e observabilidade de linhagem.",
+                "nota": 100,
+                "feedback": "Resposta muito completa e estruturada. Mostra que o candidato tem experiência prática com operações de dados (DataOps) e boas práticas de qualidade."
+              },
+              {
+                "pergunta": "Descreva uma situação em que você precisou explicar um resultado complexo de análise de dados para uma audiência não técnica e como estruturou essa comunicação.",
+                "resposta_resumida": "Utilizou storytelling focado na tríade contexto, problema e solução, removendo jargões técnicos para focar no impacto direto ao negócio.",
+                "nota": 90,
+                "feedback": "Resposta objetiva e alinhada com as melhores práticas de comunicação executiva. É importante para um papel de analista."
+              },
+              {
+                "pergunta": "Qual é a sua experiência prática na aplicação de testes A/B e como você define a significância estatística para validar os resultados obtidos?",
+                "resposta_resumida": "Aborda o uso de ferramentas de mercado e a importância de métricas como o p-valor (< 0.05) e nível de confiança de 95% para evitar erros estatísticos.",
+                "nota": 85,
+                "feedback": "Demonstrou conhecimento estatístico sólido. O feedback teria sido ainda melhor com um exemplo de desafio real superado durante um teste A/B."
+              },
+              {
+                "pergunta": "Quais critérios você utiliza para selecionar um modelo de aprendizado de máquina adequado para um problema de regressão ou classificação, considerando o compromisso entre viés e variância?",
+                "resposta_resumida": "Foca no balanceamento do erro, uso de validação cruzada, métricas específicas (R2, F1-Score) e técnicas para evitar overfitting/underfitting.",
+                "nota": 92,
+                "feedback": "Respostas teóricas bem fundamentadas. Demonstra clareza sobre o trade-off viés-variância, que é crucial para modelos preditivos."
+              },
+              {
+                "pergunta": "Como você lida com conjuntos de dados desbalanceados em tarefas de classificação e quais métricas você prioriza para avaliar o desempenho nesses casos?",
+                "resposta_resumida": "Utiliza uma estratégia combinada de manipulação de dados, ajustes nos algoritmos e métricas de avaliação robustas que não dependem apenas da acurácia.",
+                "nota": 95,
+                "feedback": "Demonstra domínio de um problema clássico de ML. O foco em métricas que não sejam a acurácia global é um ponto muito positivo."
+              },
+              {
+                "pergunta": "Quais técnicas específicas de reamostragem você costuma aplicar para mitigar o desbalanceamento e como você justifica a escolha entre elas?",
+                "resposta_resumida": "Menciona o uso de SMOTE para sintéticos e Tomek Links para limpeza, além de subamostragem e ajustes de pesos de classe.",
+                "nota": 96,
+                "feedback": "Demonstra conhecimento prático de bibliotecas de reamostragem e o uso crítico de cada técnica conforme o cenário."
+              },
+              {
+                "pergunta": "Como você otimiza consultas SQL complexas em ambientes de Big Data para garantir que o tempo de execução e o consumo de recursos sejam eficientes?",
+                "resposta_resumida": "Sugere técnicas como particionamento, bucketing, uso de formatos colunares (Parquet/ORC) e otimização de I/O para reduzir o processamento desnecessário.",
+                "nota": 94,
+                "feedback": "Excelente conhecimento de infraestrutura de Big Data. As sugestões demonstram um viés prático para redução de custos e tempo de processamento."
+              },
+              {
+                "pergunta": "Explique como você utiliza a análise de componentes principais (PCA) para redução de dimensionalidade e quais são os cuidados necessários ao aplicar essa técnica em um pipeline de dados.",
+                "resposta_resumida": "Explica o PCA como uma técnica de projeção linear para redução de dimensionalidade preservando a variância, mencionando a necessidade de componentes ortogonais.",
+                "nota": 88,
+                "feedback": "Resumo correto. Para um nível sênior, poderia ter mencionado a necessidade crucial de normalização/padronização dos dados antes da aplicação do PCA."
+              }
+            ]
+          },
+          "historico": [
+            {
+              "role": "assistant",
+              "content": "Como você explicaria a diferença entre uma correlação e uma causalidade no contexto de análise de dados?"
+            },
+            {
+              "role": "user",
+              "content": "Na análise de dados, a correlação indica que duas variáveis mudam juntas (se movem na mesma direção ou em direções opostas). A causalidade vai além: significa que uma variável é diretamente responsável por provocar a alteração na outra. Em suma: correlação não implica causalidade"
+            },
+            {
+              "role": "assistant",
+              "content": "Quais técnicas ou métodos você utiliza para tratar valores ausentes (missing values) em um conjunto de dados antes de iniciar uma análise?"
+            },
+            {
+              "role": "user",
+              "content": "O tratamento de valores ausentes depende da proporção e do mecanismo dos dados (MCAR, MAR, MNAR). Utilizo uma abordagem estruturada: remoção (quando a perda é insignificante), imputação estatística (média/mediana para baseline) ou imputação preditiva (KNN e algoritmos de floresta) para preservar a variabilidade do conjunto de dados antes da análise."
+            },
+            {
+              "role": "assistant",
+              "content": "Como você garante a integridade e a qualidade dos dados em um pipeline de processamento antes de alimentar um modelo de Machine Learning ou um dashboard?"
+            },
+            {
+              "role": "user",
+              "content": "Você disse: \"Como você garante a integridade e a qualidade dos dados em um pipeline de processamento antes de alimentar um modelo de Machine Learning ou um dashboard?\"Garantir a integridade e a qualidade dos dados é o passo mais crítico para evitar o famoso \"lixo entra, lixo sai\" (garbage in, garbage out). Um pipeline robusto divide essa validação em camadas estratégicas ao longo de todo o fluxo.Abaixo está o framework prático para assegurar dados confiáveis para Machine Learning e dashboards:1. Validação de Esquema (Ingestão)Contratos de dados: Bloqueie dados que não seguem o formato esperado.Checagem de tipos: Garanta que números sejam float/int e datas sejam datetime.Campos obrigatórios: Identifique e isole registros com valores nulos críticos (nulls).2. Limpeza e Tratamento (Processamento)Remoção de duplicatas: Elimine chaves primárias repetidas de forma precoce.Regras de negócio: Filtre valores impossíveis (ex: idade negativa ou preço zero).Imputação inteligente: Trate nulos com média, mediana ou flags específicas (ex: \"Desconhecido\").3. Testes Automatizados de Dados (Qualidade)Ferramentas de Data Quality: Use frameworks como Great Expectations ou dbt tests.Testes de volume: Alerte se o volume de dados diário cair drasticamente.Validação de distribuição: Monitore desvios padrão para evitar dados corrompidos.4. Monitoramento para Machine Learning (Específico)Data Drift: Detecte se a distribuição dos dados atuais mudou em relação ao treino.Concept Drift: Monitore se a relação entre as variáveis e o alvo mudou.Alinhamento de features: Garanta que a transformação (ex: One-Hot Encoding) seja idêntica no treino e no serving.5. Observabilidade e Linhagem (Dashboard)Linhagem dos dados (Data Lineage): Rastreie a origem do dado até o gráfico final.SLA de atualização: Monitore o atraso (data freshness) para evitar relatórios desatualizados.Testes de integridade referencial: Garanta que as chaves estrangeiras conectem os painéis corretamente."
+            },
+            {
+              "role": "assistant",
+              "content": "Descreva uma situação em que você precisou explicar um resultado complexo de análise de dados para uma audiência não técnica e como estruturou essa comunicação."
+            },
+            {
+              "role": "user",
+              "content": "Para explicar dados complexos a uma audiência não técnica, utilizei a técnica de narrativa de dados (data storytelling). Eliminei jargões e foquei na tríade: contexto, problema e solução. A comunicação foi estruturada para responder à principal dúvida do público sem exigir conhecimento estatístico"
+            },
+            {
+              "role": "assistant",
+              "content": "Qual é a sua experiência prática na aplicação de testes A/B e como você define a significância estatística para validar os resultados obtidos?"
+            },
+            {
+              "role": "user",
+              "content": "Para responder a essa pergunta de forma direta, você precisa estruturar sua resposta abordando três pilares: o planejamento prático, a definição estatística e o impacto no negócio.Aqui está uma estrutura de resposta ideal para você adaptar com os seus exemplos reais:Experiência Prática: Mencione a ferramenta que você domina (ex: Optimizely, Google Optimize/Analytics, ou VWO). Dê um exemplo rápido de um teste que você conduziu: “Na minha última experiência, criei um teste A/B para a página de checkout. Mudei a cor e a posição do botão de compra, o que aumentou a conversão em X%.”Significância Estatística: Demonstre que você não toma decisões precipitadas. Explique que você define o nível de confiança (geralmente \\(95\\%\\)) e um valor \\(p < 0.05\\). Isso significa que há apenas \\(5\\%\\) de chance de o resultado ter ocorrido por puro acaso.Tamanho da Amostra: Destaque a importância do tempo de duração do teste para evitar o erro de peeking (olhar os resultados antes da hora) e garantir que a amostra seja estatisticamente relevante usando calculadoras de tamanho de amostra.Se você quiser, posso te ajudar a elaborar um exemplo prático específico baseado na sua área de atuação. Para isso, me conte:Qual é o seu cargo atual ou área (ex: Produto, Marketing, UX)?Quais ferramentas de teste você costuma usar ou conhece?Teste A/B: definição e estratégias para anúncios | LinkedIn AdsA utilização de uma calculadora de teste A/B ajuda a identificar o tamanho da amostra necessária (melhoria percentual) para garant...LinkedIn"
+            },
+            {
+              "role": "assistant",
+              "content": "Quais critérios você utiliza para selecionar um modelo de aprendizado de máquina adequado para um problema de regressão ou classificação, considerando o compromisso entre viés e variância?"
+            },
+            {
+              "role": "user",
+              "content": "A seleção de um modelo adequado exige o balanceamento do erro total, utilizando técnicas de validação cruzada, métricas específicas do problema (como \\(R^{2}\\) para regressão e F1-Score para classificação), e ajuste de complexidade para controlar o sobreajuste (overfitting) e o subajuste (underfitting)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você lida com conjuntos de dados desbalanceados em tarefas de classificação e quais métricas você prioriza para avaliar o desempenho nesses casos?"
+            },
+            {
+              "role": "user",
+              "content": "Lidar com conjuntos de dados desbalanceados exige atenção para evitar que o modelo fique viciado na classe majoritária. Para garantir previsões precisas tanto para a classe minoritária quanto para a majoritária, utilizo uma abordagem em três frentes: técnicas ao nível de dados, ajustes algorítmicos e métricas de avaliação robustas"
+            },
+            {
+              "role": "assistant",
+              "content": "Quais técnicas específicas de reamostragem você costuma aplicar para mitigar o desbalanceamento e como você justifica a escolha entre elas?"
+            },
+            {
+              "role": "user",
+              "content": "Para mitigar o desbalanceamento, utilizo abordagens combinadas como SMOTE para gerar exemplos minoritários sintéticos via \\(k\\)-vizinhos mais próximos (\\(k\\)-NN) e Tomek Links para limpar ruídos nas bordas de decisão. Em cenários extremos, aplico Subamostragem Aleatória aliada ao Class Weighting nos algoritmos."
+            },
+            {
+              "role": "assistant",
+              "content": "Como você otimiza consultas SQL complexas em ambientes de Big Data para garantir que o tempo de execução e o consumo de recursos sejam eficientes?"
+            },
+            {
+              "role": "user",
+              "content": "Para otimizar consultas SQL complexas em ambientes de Big Data, o foco principal deve ser a redução do volume de dados trafegados na rede (I/O) e a maximização do processamento paralelo.Abaixo estão as estratégias mais eficientes divididas por categorias:1. Modelagem e Armazenamento de DadosParticionamento: Divida as tabelas por colunas frequentemente usadas em filtros (ex: data ou região). Isso faz o motor de busca ignorar dados irrelevantes (Partition Pruning).Bucketing / Clustering: Distribua os dados em subgrupos baseados no hash de uma coluna (ex: ID do cliente). Isso otimiza cruzamentos futuros.Formatos Colunares: Utilize formatos como Parquet ou ORC. Eles compactam os dados e permitem ler apenas as colunas necessárias para a consulta"
+            },
+            {
+              "role": "assistant",
+              "content": "Explique como você utiliza a análise de componentes principais (PCA) para redução de dimensionalidade e quais são os cuidados necessários ao aplicar essa técnica em um pipeline de dados."
+            },
+            {
+              "role": "user",
+              "content": "A Análise de Componentes Principais (PCA) transforma um grande número de variáveis correlacionadas em um conjunto menor de variáveis não correlacionadas (componentes principais), mantendo a maior variância possível dos dados originais. Isso é feito descobrindo combinações lineares que maximizam a dispersão das informações e reduzem a complexidade computacional."
+            }
+          ],
+          "encerrada_precoce": false
+        },
+        {
+          "vaga": "Desenvolvedor Python",
+          "data": "19/06/2026 21:21",
+          "avaliacao": {
+            "resumo_geral": "O candidato demonstrou um conhecimento técnico superficial, apresentando conceitos básicos sem a profundidade necessária para uma vaga de nível sênior. Embora tenha identificado os tópicos corretamente, as respostas foram extremamente breves e careceram de exemplos práticos ou detalhamento de implementação. Recomendo cautela, pois, apesar de conhecer a teoria, a capacidade de argumentação técnica foi insuficiente para os desafios da posição.",
+            "comunicacao": 50,
+            "tecnico": 45,
+            "confianca": 40,
+            "perguntas": [
+              {
+                "pergunta": "Como você explicaria a diferença entre uma lista (list) e uma tupla (tuple) em Python, considerando o gerenciamento de memória e a mutabilidade?",
+                "resposta_resumida": "O candidato destacou a mutabilidade como ponto chave e mencionou a eficiência no gerenciamento de memória. Contudo, não detalhou tecnicamente como a alocação de memória difere entre ambas as estruturas.",
+                "nota": 60,
+                "feedback": "Ponto positivo pela identificação correta da mutabilidade. Faltou explicar que as tuplas são alocadas de forma mais compacta devido à sua natureza imutável."
+              },
+              {
+                "pergunta": "Como o Python gerencia o gerenciamento de memória em relação à coleta de lixo (garbage collection) e contagem de referências?",
+                "resposta_resumida": "O candidato citou corretamente o uso de contagem de referências e o coletor cíclico. A explicação foi muito sucinta e não explorou o funcionamento do mecanismo.",
+                "nota": 55,
+                "feedback": "Demonstrou conhecimento sobre a existência dos mecanismos, mas faltou explicar o papel do 'refcount' e como o coletor resolve referências cíclicas."
+              },
+              {
+                "pergunta": "Quais são as principais diferenças de desempenho e semântica entre o uso de decoradores e gerenciadores de contexto (context managers) no Python?",
+                "resposta_resumida": "O candidato afirmou que ambos executam códigos antes e depois de blocos principais. Reconheceu que existem propósitos e escopos diferentes.",
+                "nota": 50,
+                "feedback": "A resposta ficou no nível conceitual básico. Seria esperado que mencionasse a sintaxe '@' para decoradores e o bloco 'with' para gerenciadores, além de casos de uso típicos."
+              },
+              {
+                "pergunta": "Explique o funcionamento do GIL (Global Interpreter Lock) no CPython e como ele impacta a execução de threads em tarefas intensivas de CPU em comparação com a utilização de multiprocessamento.",
+                "resposta_resumida": "O candidato não forneceu uma explicação detalhada sobre o impacto do GIL na performance de threads em Python.",
+                "nota": 30,
+                "feedback": "Resposta insatisfatória. É essencial para um desenvolvedor Python entender que o GIL impede a execução paralela de threads em código byte, tornando o multiprocessamento necessário para CPU-bound tasks."
+              }
+            ]
+          },
+          "historico": [
+            {
+              "role": "assistant",
+              "content": "Como você explicaria a diferença entre uma lista (list) e uma tupla (tuple) em Python, considerando o gerenciamento de memória e a mutabilidade?"
+            },
+            {
+              "role": "user",
+              "content": "A principal diferença entre uma lista e uma tupla em Python gira em torno de duas características: mutabilidade (capacidade de alteração) e gerenciamento de memória (eficiência)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como o Python gerencia o gerenciamento de memória em relação à coleta de lixo (garbage collection) e contagem de referências?"
+            },
+            {
+              "role": "user",
+              "content": "O Python gerencia a memória automaticamente usando dois mecanismos principais: contagem de referências e um coletor de lixo cíclico (Garbage Collector"
+            },
+            {
+              "role": "assistant",
+              "content": "Quais são as principais diferenças de desempenho e semântica entre o uso de decoradores e gerenciadores de contexto (context managers) no Python?"
+            },
+            {
+              "role": "user",
+              "content": "Decoradores e gerenciadores de contexto (statement with) servem para executar códigos antes e depois de um bloco principal, mas possuem objetivos, escopos e impactos de desempenho bem distintos."
+            },
+            {
+              "role": "assistant",
+              "content": "Explique o funcionamento do GIL (Global Interpreter Lock) no CPython e como ele impacta a execução de threads em tarefas intensivas de CPU em comparação com a utilização de multiprocessamento."
+            },
+            {
+              "role": "user",
+              "content": "gozei"
+            }
+          ],
+          "encerrada_precoce": true
+        },
+        {
+          "vaga": "Desenvolvedor Python",
+          "data": "19/06/2026 21:39",
+          "avaliacao": {
+            "resumo_geral": "O candidato optou por não responder a nenhuma das questões técnicas propostas durante a entrevista. Essa ausência de participação inviabiliza uma avaliação de suas competências técnicas ou de sua postura profissional sob pressão. Como o desempenho foi nulo em todos os critérios, não é possível recomendar o prosseguimento deste candidato no processo seletivo para a vaga de Desenvolvedor Python Pleno.",
+            "comunicacao": 0,
+            "tecnico": 0,
+            "confianca": 0,
+            "perguntas": [
+              {
+                "pergunta": "Como você diferencia o uso de listas (lists) e tuplas (tuples) em Python, e em qual cenário de desenvolvimento você priorizaria o uso de uma em detrimento da outra?",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "A ausência de resposta impede qualquer avaliação sobre o conhecimento fundamental do candidato acerca de estruturas de dados em Python."
+              },
+              {
+                "pergunta": "Explique a diferença fundamental entre processos e threads no contexto da execução de programas em Python e como o Global Interpreter Lock (GIL) afeta essa escolha.",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "O candidato não demonstrou conhecimento sobre concorrência e o impacto do GIL na execução de tarefas multithread."
+              },
+              {
+                "pergunta": "Como você implementaria um gerenciador de contexto (context manager) em Python para garantir que recursos, como uma conexão com banco de dados, sejam fechados corretamente mesmo se ocorrer uma exceção durante a execução?",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "Não foi possível verificar a capacidade do candidato de manipular contextos e garantir a integridade de recursos externos."
+              },
+              {
+                "pergunta": "Qual é a diferença entre os métodos `__init__` e `__new__` em uma classe Python e em que situação específica seria necessário sobrescrever o método `__new__`?",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "A falha em responder demonstra desconhecimento sobre o ciclo de vida de objetos em Python."
+              },
+              {
+                "pergunta": "Explique o funcionamento de decoradores (decorators) em Python e forneça um exemplo prático de como você utilizaria um para medir o tempo de execução de uma função.",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "Os decoradores são ferramentas essenciais em Python e a falta de resposta indica uma lacuna técnica significativa."
+              },
+              {
+                "pergunta": "O que são geradores (generators) em Python, qual a principal vantagem de utilizar a palavra-chave `yield` em vez de `return` e em que situação de processamento de grandes volumes de dados essa abordagem é mais eficiente?",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "O domínio sobre geradores é crucial para o processamento eficiente de memória; a falta de resposta é preocupante."
+              },
+              {
+                "pergunta": "Como você implementaria a injeção de dependência em um projeto Python e quais são os benefícios dessa prática para a testabilidade do seu código?",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "A injeção de dependência é fundamental para sistemas escaláveis; a falta de resposta sugere pouca experiência com arquitetura de software."
+              },
+              {
+                "pergunta": "Explique a diferença entre `staticmethod`, `classmethod` e métodos de instância em Python, detalhando em quais cenários cada um deve ser aplicado.",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "O uso correto dos tipos de métodos em classes é básico para o paradigma orientado a objetos em Python."
+              },
+              {
+                "pergunta": "Descreva como funciona o mecanismo de herança múltipla em Python e explique o conceito de Method Resolution Order (MRO) ao lidar com classes que possuem a mesma hierarquia.",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "O conceito de MRO é complexo, mas essencial para evitar erros em sistemas de herança múltipla."
+              },
+              {
+                "pergunta": "Como você lida com a configuração de variáveis de ambiente em aplicações Python para garantir a segurança de credenciais e a portabilidade do código entre diferentes ambientes (desenvolvimento, homologação e produção)?",
+                "resposta_resumida": "O candidato não forneceu uma resposta para esta pergunta.",
+                "nota": 0,
+                "feedback": "A ausência de resposta impede a validação das práticas de segurança e boas práticas de DevOps do candidato."
+              }
+            ]
+          },
+          "historico": [
+            {
+              "role": "assistant",
+              "content": "Como você diferencia o uso de listas (lists) e tuplas (tuples) em Python, e em qual cenário de desenvolvimento você priorizaria o uso de uma em detrimento da outra?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Explique a diferença fundamental entre processos e threads no contexto da execução de programas em Python e como o Global Interpreter Lock (GIL) afeta essa escolha."
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você implementaria um gerenciador de contexto (context manager) em Python para garantir que recursos, como uma conexão com banco de dados, sejam fechados corretamente mesmo se ocorrer uma exceção durante a execução?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Qual é a diferença entre os métodos `__init__` e `__new__` em uma classe Python e em que situação específica seria necessário sobrescrever o método `__new__`?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Explique o funcionamento de decoradores (decorators) em Python e forneça um exemplo prático de como você utilizaria um para medir o tempo de execução de uma função."
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "O que são geradores (generators) em Python, qual a principal vantagem de utilizar a palavra-chave `yield` em vez de `return` e em que situação de processamento de grandes volumes de dados essa abordagem é mais eficiente?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você implementaria a injeção de dependência em um projeto Python e quais são os benefícios dessa prática para a testabilidade do seu código?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Explique a diferença entre `staticmethod`, `classmethod` e métodos de instância em Python, detalhando em quais cenários cada um deve ser aplicado."
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Descreva como funciona o mecanismo de herança múltipla em Python e explique o conceito de Method Resolution Order (MRO) ao lidar com classes que possuem a mesma hierarquia."
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você lida com a configuração de variáveis de ambiente em aplicações Python para garantir a segurança de credenciais e a portabilidade do código entre diferentes ambientes (desenvolvimento, homologação e produção)?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            }
+          ],
+          "encerrada_precoce": false
+        },
+        {
+          "vaga": "Gerente de Projetos",
+          "data": "19/06/2026 21:47",
+          "avaliacao": {
+            "resumo_geral": "O candidato optou por não responder a nenhuma das perguntas propostas durante a entrevista. Devido à ausência total de interação e informações sobre sua experiência ou competências, não é possível realizar uma avaliação qualitativa do seu perfil para a vaga de Gerente de Projetos. A candidatura é considerada inapta por falta de engajamento e evidências de qualificação profissional.",
+            "comunicacao": 0,
+            "tecnico": 0,
+            "confianca": 0,
+            "perguntas": [
+              {
+                "pergunta": "Como você estrutura um cronograma de projeto utilizando a metodologia ágil, garantindo que o escopo e os prazos sejam mantidos sem comprometer a qualidade da entrega?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "O candidato não forneceu informações. É necessária a participação ativa para avaliar o conhecimento técnico."
+              },
+              {
+                "pergunta": "Qual é a sua estratégia para gerenciar riscos e mitigar impactos em um projeto quando ocorre uma mudança crítica no escopo durante o meio da execução?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Impossível avaliar a capacidade de gestão de riscos."
+              },
+              {
+                "pergunta": "Como você utiliza métricas como Velocity, Burn-down Chart e Lead Time para avaliar a saúde e o desempenho de uma equipe de desenvolvimento?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Falha na demonstração de competências analíticas de gestão."
+              },
+              {
+                "pergunta": "Qual é o seu critério para selecionar e implementar uma ferramenta de gestão de projetos (como Jira, Trello ou Azure DevOps) em um ambiente com múltiplas equipes e requisitos técnicos distintos?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Sem dados para avaliar a experiência com ferramentas de gestão."
+              },
+              {
+                "pergunta": "Como você aborda o gerenciamento de dependências técnicas entre diferentes times de desenvolvimento quando as entregas de uma equipe dependem diretamente da conclusão de outra?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Impossível avaliar habilidades de coordenação inter-times."
+              },
+              {
+                "pergunta": "De que maneira você integra práticas de CI/CD ao fluxo de trabalho de um projeto para garantir que as entregas de software mantenham a consistência e a estabilidade exigidas pelos requisitos?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Ausência de resposta sobre conhecimentos em engenharia e DevOps."
+              },
+              {
+                "pergunta": "Como você conduz o processo de priorização técnica em um backlog, considerando o equilíbrio entre a entrega de novas funcionalidades, a redução de débito técnico e a manutenção da infraestrutura?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Não houve demonstração de visão estratégica."
+              },
+              {
+                "pergunta": "Como você realiza a gestão de capacidade de uma equipe técnica, assegurando que o planejamento das sprints seja realista em relação ao esforço estimado e às horas disponíveis?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Sem informações sobre gestão de capacidade e planejamento."
+              },
+              {
+                "pergunta": "Quais são os principais desafios técnicos que você enfrentou ao gerenciar a transição de um sistema legado para uma arquitetura baseada em microsserviços ou nuvem, e como você coordenou essa migração?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Não foi possível avaliar a senioridade técnica."
+              },
+              {
+                "pergunta": "Como você garante a rastreabilidade dos requisitos, desde a definição inicial com o cliente até a validação final do código em produção, mantendo a conformidade com as normas de qualidade e segurança?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Falha em demonstrar rigor processual."
+              },
+              {
+                "pergunta": "Descreva uma situação em que você precisou lidar com um membro da equipe que apresentava um desempenho abaixo do esperado, afetando o ritmo do projeto. Qual foi a sua abordagem e qual foi o resultado?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de competências socioemocionais."
+              },
+              {
+                "pergunta": "Como você gerencia o conflito entre dois membros da equipe que discordam profundamente sobre a abordagem técnica a ser adotada para a resolução de um problema crítico no projeto?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de habilidades de mediação."
+              },
+              {
+                "pergunta": "Conte-me sobre um momento em que você precisou adaptar seu estilo de liderança para motivar um grupo que estava passando por um período de estresse elevado ou desmotivação. Como você identificou o problema e quais ações tomou?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de perfil de liderança."
+              },
+              {
+                "pergunta": "Como você lida com stakeholders que possuem expectativas conflitantes ou não realistas sobre os prazos e o escopo de um projeto em andamento?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de negociação."
+              },
+              {
+                "pergunta": "Descreva uma ocasião em que você precisou comunicar uma notícia negativa, como um atraso significativo no cronograma, para o cliente ou para a alta gestão. Como você estruturou essa comunicação e quais foram os impactos?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de comunicação executiva."
+              },
+              {
+                "pergunta": "Ao delegar tarefas para sua equipe, quais critérios você utiliza para equilibrar o desenvolvimento profissional dos membros menos experientes com a necessidade de garantir a entrega crítica dentro do prazo?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de gestão de pessoas."
+              },
+              {
+                "pergunta": "Como você lida com a pressão de trabalhar em um ambiente de alta incerteza, onde as prioridades mudam com frequência, e de que forma você ajuda seu time a manter o foco nas entregas essenciais?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de resiliência profissional."
+              },
+              {
+                "pergunta": "Descreva uma situação em que você cometeu um erro de julgamento ou de gestão que impactou negativamente o projeto. Como você lidou com as consequências e o que aprendeu com essa experiência?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem demonstração de autocrítica."
+              },
+              {
+                "pergunta": "Como você promove um ambiente de segurança psicológica na sua equipe, onde os membros se sintam confortáveis para admitir falhas e compartilhar ideias divergentes sem medo de represálias?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de cultura de gestão."
+              },
+              {
+                "pergunta": "De que maneira você equilibra as metas individuais de desenvolvimento de carreira dos membros da sua equipe com as necessidades operacionais e estratégicas da organização?",
+                "resposta_resumida": "O candidato não respondeu à pergunta.",
+                "nota": 0,
+                "feedback": "Resposta ausente. Sem evidências de gestão estratégica de talentos."
+              }
+            ]
+          },
+          "historico": [
+            {
+              "role": "assistant",
+              "content": "Como você estrutura um cronograma de projeto utilizando a metodologia ágil, garantindo que o escopo e os prazos sejam mantidos sem comprometer a qualidade da entrega?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Qual é a sua estratégia para gerenciar riscos e mitigar impactos em um projeto quando ocorre uma mudança crítica no escopo durante o meio da execução?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você utiliza métricas como Velocity, Burn-down Chart e Lead Time para avaliar a saúde e o desempenho de uma equipe de desenvolvimento?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Qual é o seu critério para selecionar e implementar uma ferramenta de gestão de projetos (como Jira, Trello ou Azure DevOps) em um ambiente com múltiplas equipes e requisitos técnicos distintos?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você aborda o gerenciamento de dependências técnicas entre diferentes times de desenvolvimento quando as entregas de uma equipe dependem diretamente da conclusão de outra?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "De que maneira você integra práticas de CI/CD ao fluxo de trabalho de um projeto para garantir que as entregas de software mantenham a consistência e a estabilidade exigidas pelos requisitos?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você conduz o processo de priorização técnica em um backlog, considerando o equilíbrio entre a entrega de novas funcionalidades, a redução de débito técnico e a manutenção da infraestrutura?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você realiza a gestão de capacidade de uma equipe técnica, assegurando que o planejamento das sprints seja realista em relação ao esforço estimado e às horas disponíveis?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Quais são os principais desafios técnicos que você enfrentou ao gerenciar a transição de um sistema legado para uma arquitetura baseada em microsserviços ou nuvem, e como você coordenou essa migração?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você garante a rastreabilidade dos requisitos, desde a definição inicial com o cliente até a validação final do código em produção, mantendo a conformidade com as normas de qualidade e segurança?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Descreva uma situação em que você precisou lidar com um membro da equipe que apresentava um desempenho abaixo do esperado, afetando o ritmo do projeto. Qual foi a sua abordagem e qual foi o resultado?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você gerencia o conflito entre dois membros da equipe que discordam profundamente sobre a abordagem técnica a ser adotada para a resolução de um problema crítico no projeto?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Conte-me sobre um momento em que você precisou adaptar seu estilo de liderança para motivar um grupo que estava passando por um período de estresse elevado ou desmotivação. Como você identificou o problema e quais ações tomou?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você lida com stakeholders que possuem expectativas conflitantes ou não realistas sobre os prazos e o escopo de um projeto em andamento?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Descreva uma ocasião em que você precisou comunicar uma notícia negativa, como um atraso significativo no cronograma, para o cliente ou para a alta gestão. Como você estruturou essa comunicação e quais foram os impactos?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Ao delegar tarefas para sua equipe, quais critérios você utiliza para equilibrar o desenvolvimento profissional dos membros menos experientes com a necessidade de garantir a entrega crítica dentro do prazo?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você lida com a pressão de trabalhar em um ambiente de alta incerteza, onde as prioridades mudam com frequência, e de que forma você ajuda seu time a manter o foco nas entregas essenciais?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Descreva uma situação em que você cometeu um erro de julgamento ou de gestão que impactou negativamente o projeto. Como você lidou com as consequências e o que aprendeu com essa experiência?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "Como você promove um ambiente de segurança psicológica na sua equipe, onde os membros se sintam confortáveis para admitir falhas e compartilhar ideias divergentes sem medo de represálias?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            },
+            {
+              "role": "assistant",
+              "content": "De que maneira você equilibra as metas individuais de desenvolvimento de carreira dos membros da sua equipe com as necessidades operacionais e estratégicas da organização?"
+            },
+            {
+              "role": "user",
+              "content": "(Questão pulada)"
+            }
+          ],
+          "encerrada_precoce": false
+        }
+      ],
+      "pendencias": {
+        "2026-06-19T21:36:25.834430": {
+          "session_id": "2026-06-19T21:36:25.834430",
+          "vaga": "",
+          "fase": "selecao",
+          "historico": [],
+          "respostas_anteriores": [],
+          "data_inicio": "2026-06-19T21:36:25.834430",
+          "dificuldade": "facil",
+          "modo_perguntas": "ambas"
+        }
+      }
+    },
+    "nedjedj@gmail.com": {
+      "conta": "pocoyo",
+      "email": "nedjedj@gmail.com",
+      "senha_hash": "89f9a27c36d8e54a339bd12d45a6d01c$8a20b7b61e0854b65b29683b12509917753b7b56b77d6bfc6c08c00433b20c55",
+      "criado_em": "2026-06-19T00:39:44.782746",
+      "historico": [],
+      "pendencias": {}
+    }
+  }
+}
